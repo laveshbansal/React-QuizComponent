@@ -4,6 +4,7 @@ import './Quiz'
 import Quiz from './Quiz'
 
 class App extends Component {
+  
   render() {
     return (
       <Quiz />
@@ -11,4 +12,4 @@ class App extends Component {
   }
 }
 
-export default App
+export default App 

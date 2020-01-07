@@ -1,8 +1,8 @@
-import React, { PureComponent } from 'react'
+import React, { Component } from 'react'
 
 let quizData=require('./quiz_data.json')
 
-class Quiz extends PureComponent {
+class Quiz extends Component {
     constructor(props) {
         super(props)
 
@@ -13,7 +13,7 @@ class Quiz extends PureComponent {
 
     render() {
         return (
-        <div>{quizData.quiz_questions[0].instruction_text}</div>
+        <div><div className="QuizQuestion">{quizData.quiz_questions[0].instruction_text}</div></div>
         )
     }
 }
