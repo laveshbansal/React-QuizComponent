@@ -1,6 +1,6 @@
-import React, { PureComponent } from 'react'
+import React, { Component } from 'react'
 
-class QuizEnd extends PureComponent {
+class QuizEnd extends Component {
     constructor(props) {
         super(props)
     }
